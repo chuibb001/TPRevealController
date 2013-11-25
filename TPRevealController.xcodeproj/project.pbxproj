@@ -42,8 +42,8 @@
 		5635F9B517DECF1B00826143 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5635F9B617DECF1B00826143 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5635F9B917DECF1B00826143 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		5635F9C017DED05400826143 /* TPRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRevealViewController.h; sourceTree = "<group>"; };
-		5635F9C117DED05400826143 /* TPRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRevealViewController.m; sourceTree = "<group>"; };
+		5635F9C017DED05400826143 /* TPRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPRevealViewController.h; path = TPRevealController/TPRevealViewController.h; sourceTree = "<group>"; };
+		5635F9C117DED05400826143 /* TPRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPRevealViewController.m; path = TPRevealController/TPRevealViewController.m; sourceTree = "<group>"; };
 		5635F9C317DED07300826143 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		5635F9C417DED07300826143 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		5635F9C617DED07C00826143 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
@@ -71,12 +71,8 @@
 		5635F99117DECF1B00826143 = {
 			isa = PBXGroup;
 			children = (
-				5635F9C917DED0A300826143 /* CViewController.h */,
-				5635F9CA17DED0A300826143 /* CViewController.m */,
-				5635F9C617DED07C00826143 /* BViewController.h */,
-				5635F9C717DED07C00826143 /* BViewController.m */,
-				5635F9C317DED07300826143 /* AViewController.h */,
-				5635F9C417DED07300826143 /* AViewController.m */,
+				564D36C3184302830044EFC3 /* ControllerLib */,
+				564D36C21843027A0044EFC3 /* TPRevealViewController */,
 				5635F9A317DECF1B00826143 /* TPRevealController */,
 				5635F99C17DECF1B00826143 /* Frameworks */,
 				5635F99B17DECF1B00826143 /* Products */,
@@ -111,8 +107,6 @@
 				5635F9B617DECF1B00826143 /* ViewController.m */,
 				5635F9B817DECF1B00826143 /* ViewController.xib */,
 				5635F9A417DECF1B00826143 /* Supporting Files */,
-				5635F9C017DED05400826143 /* TPRevealViewController.h */,
-				5635F9C117DED05400826143 /* TPRevealViewController.m */,
 			);
 			path = TPRevealController;
 			sourceTree = "<group>";
@@ -129,6 +123,28 @@
 				5635F9B317DECF1B00826143 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		564D36C21843027A0044EFC3 /* TPRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5635F9C017DED05400826143 /* TPRevealViewController.h */,
+				5635F9C117DED05400826143 /* TPRevealViewController.m */,
+			);
+			name = TPRevealViewController;
+			sourceTree = "<group>";
+		};
+		564D36C3184302830044EFC3 /* ControllerLib */ = {
+			isa = PBXGroup;
+			children = (
+				5635F9C917DED0A300826143 /* CViewController.h */,
+				5635F9CA17DED0A300826143 /* CViewController.m */,
+				5635F9C617DED07C00826143 /* BViewController.h */,
+				5635F9C717DED07C00826143 /* BViewController.m */,
+				5635F9C317DED07300826143 /* AViewController.h */,
+				5635F9C417DED07300826143 /* AViewController.m */,
+			);
+			name = ControllerLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
